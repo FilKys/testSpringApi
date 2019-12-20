@@ -3,26 +3,36 @@ package springApi;
 import java.util.Date;
 
 public class Contribution {
-    private int idClient;
-    private int idBank;
+    private Long idContribution;
+    private Long idClient;
+    private Long idBank;
     private Date openDate;
     private float interestRate;
+    private Long term;
 
-    public void Contribution(int idClient,
-                             int idBank,
-                             Date openDate,
-                             float interestRate) {
+    public Contribution(Long idContribution,
+                        Long idClient,
+                        Long idBank,
+                        Date openDate,
+                        float interestRate,
+                        Long term) {
+        this.idContribution =idContribution;
         this.idClient = idClient;
         this.idBank = idBank;
         this.openDate = openDate;
         this.interestRate = interestRate;
+        this.term = term;
     }
 
-    public int getIdClient() {
+    public Long getIdContribution() {
+        return idContribution;
+    }
+
+    public Long getIdClient() {
         return idClient;
     }
 
-    public int getIdBank() {
+    public Long getIdBank() {
         return idBank;
     }
 
@@ -34,4 +44,7 @@ public class Contribution {
         return interestRate;
     }
 
+    public Long getTerm() {
+        return term;
+    }
 }

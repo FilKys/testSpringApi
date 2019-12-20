@@ -10,8 +10,11 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
+import java.util.TimeZone;
 
 public class WorkJSON {
 
@@ -59,17 +62,40 @@ public class WorkJSON {
         }
     }
 
-    public List<String> readJsonFormOfIncorporation(){
-        try{
+    public List<String> readJsonFormOfIncorporation() {
+        try {
             List<String> allForms = new ArrayList<>();
             JSONArray jsonArray = getJsonArray("classpath:formOfIncorporation.json");
-            JSONObject jsonObject =  (JSONObject) jsonArray.get(0);
+            JSONObject jsonObject = (JSONObject) jsonArray.get(0);
             jsonArray = (JSONArray) jsonObject.get("name");
             for (int i = 0; i < jsonArray.size(); i++) {
                 allForms.add((String) jsonArray.get(i));
             }
             return allForms;
         } catch (ParseException | IOException e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+
+    public List<Contribution> readJsonContributions() {
+        try {
+            List<Contribution> allContributions = new ArrayList<>();
+            JSONArray jsonArray = getJsonArray("classpath:contributions.json");
+            SimpleDateFormat df = new SimpleDateFormat("dd.MM.yyyy");
+            df.setTimeZone(TimeZone.getTimeZone("UTC"));
+            for (int i = 0; i < jsonArray.size(); i++) {
+                JSONObject jsonObject = (JSONObject) jsonArray.get(i);
+                Contribution contribution = new Contribution((Long) jsonObject.get("id"),
+                        (Long) jsonObject.get("idClient"),
+                        (Long) jsonObject.get("idBank"),
+                        df.parse(jsonObject.get("openDate").toString()),
+                        Float.parseFloat(jsonObject.get("interestRate").toString()),
+                        (Long) jsonObject.get("term"));
+                allContributions.add(contribution);
+            }
+            return allContributions;
+        } catch (IOException | ParseException | java.text.ParseException e) {
             e.printStackTrace();
             return null;
         }

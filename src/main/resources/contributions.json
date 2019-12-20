@@ -1,0 +1,18 @@
+[
+  {
+    "id": 0,
+    "idClient": 0,
+    "idBank": 0,
+    "openDate": "01.12.2019",
+    "interestRate": 12,
+    "term": 24
+  },
+  {
+    "id": 1,
+    "idClient": 1,
+    "idBank": 1,
+    "openDate": "02.12.2019",
+    "interestRate": 25,
+    "term": 48
+  }
+]

@@ -1,18 +1,18 @@
 package springApi;
 
 public class Bank {
-    private Long id;
+    private Long idBank;
     private String name;
     private String bik;
 
     public Bank(Long id, String name, String bik) {
-        this.id = id;
+        this.idBank = id;
         this.name = name;
         this.bik = bik;
     }
 
-    public Long getId() {
-        return id;
+    public Long getIdBank() {
+        return idBank;
     }
 
     public String getNameBank(){

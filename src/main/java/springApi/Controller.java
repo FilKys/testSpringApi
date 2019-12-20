@@ -5,6 +5,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
+import static springApi.Print.*;
+
 @RestController
 public class Controller {
     private final String sharedKey = "SHARED_KEY";
@@ -29,41 +31,12 @@ public class Controller {
         return printFormOfIncorporation(new WorkJSON().readJsonFormOfIncorporation());
     }
 
-    private String printFormOfIncorporation(List<String> allFormOfIncorporations) {
-        String res = "Организационно-правовая форма  :";
-        for (int i = 0; i < allFormOfIncorporations.size(); i++) {
-            res += "<br>";
-            res += "id: " +i + "<br>";
-            res += "mame: " + allFormOfIncorporations.get(i) + "<br>";
-            res += "-------------";
-        }
-        return res;
+    @GetMapping("/contributions")
+    public String getContributions() {
+        return printContributions(new WorkJSON().readJsonContributions());
     }
 
-    private String printClient(List<Client> allClients) {
-        String res = "Банки :";
-        for (Client client : allClients) {
-            res += "<br>";
-            res += "id: " + client.getIdClient().toString() + "<br>";
-            res += "fullName: " + client.getFullName() + "<br>";
-            res += "smallName: " + client.getSmallName() + "<br>";
-            res += "address: " + client.getAddress() + "<br>";
-            res += "idFormOfIncorporation: " + client.getIdFormOfIncorporation().toString() + "<br>";
-            res += "-------------";
-        }
-        return res;
-    }
 
-    private String printBank(List<Bank> allBanks) {
-        String res = "Банки :";
-        for (Bank bank : allBanks) {
-            res += "<br>";
-            res += "id: " + bank.getId().toString() + "<br>";
-            res += "name: " + bank.getNameBank() + "<br>";
-            res += "bik: " + bank.getBikBank() + "<br>";
-            res += "-------------";
-        }
-        return res;
-    }
+
 
 }
