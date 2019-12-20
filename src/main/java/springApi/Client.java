@@ -1,19 +1,26 @@
 package springApi;
 
 public class Client {
+    private Long idClient;
     private String fullName;
     private String smallName;
     private String address;
-    private int idFormOfIncorporation;
+    private Long idFormOfIncorporation; //[0-6]
 
-    public void Client(String fullName,
-                       String smallName,
-                       String address,
-                       int idFormOfIncorporation) {
+    public Client(Long idClient,
+                  String fullName,
+                  String smallName,
+                  String address,
+                  Long idFormOfIncorporation) {
+        this.idClient = idClient;
         this.fullName = fullName;
         this.smallName = smallName;
         this.address = address;
         this.idFormOfIncorporation = idFormOfIncorporation;
+    }
+
+    public Long getIdClient() {
+        return idClient;
     }
 
     public String getFullName() {
@@ -28,7 +35,7 @@ public class Client {
         return address;
     }
 
-    public int getIdFormOfIncorporation() {
+    public Long getIdFormOfIncorporation() {
         return idFormOfIncorporation;
     }
 

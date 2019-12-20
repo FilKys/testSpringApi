@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "fullName": "ИП \"Свиязева\"",
+    "smallName": "Свиязев",
+    "address": "Свиязева 46/2",
+    "idFormOfIncorporation": 0
+  },
+  {
+    "id": 2,
+    "fullName": "ООО \"ГазПром\"",
+    "smallName": "Газпром",
+    "address": "Ленина 66",
+    "idFormOfIncorporation": 1
+  },
+  {
+    "id": 3,
+    "fullName": "ОАО \"Нестле\"",
+    "smallName": "Nestle",
+    "address": "Крупской 66",
+    "idFormOfIncorporation": 2
+  }
+]
