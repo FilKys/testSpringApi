@@ -1,3 +1,5 @@
+package springApi;
+
 public class Bank {
     private String name;
     private String bik;

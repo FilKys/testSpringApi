@@ -1,4 +1,5 @@
-import org.springframework.web.bind.annotation.GetMapping;
+package springApi;
+
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
