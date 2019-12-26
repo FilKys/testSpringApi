@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.TimeZone;
 
 public class Print {
-    static String printFormOfIncorporation(List<String> allFormOfIncorporations) {
+    public static String printFormOfIncorporation(List<String> allFormOfIncorporations) {
         String res = "Организационно-правовая форма  :";
         for (int i = 0; i < allFormOfIncorporations.size(); i++) {
             res += "<br>";
@@ -16,7 +16,7 @@ public class Print {
         return res;
     }
 
-    static String printClient(List<Client> allClients) {
+    public static String printClient(List<Client> allClients) {
         String res = "Банки :";
         List<String> formOfIncorporationList = new WorkJSON().readJsonFormOfIncorporation();
         for (Client client : allClients) {
@@ -32,7 +32,7 @@ public class Print {
         return res;
     }
 
-    static String printBank(List<Bank> allBanks) {
+    public static String printBank(List<Bank> allBanks) {
         String res = "Банки :";
         for (Bank bank : allBanks) {
             res += "<br>";
@@ -44,7 +44,7 @@ public class Print {
         return res;
     }
 
-    static String printContributions(List<Contribution> contributionsList) {
+    public static String printContributions(List<Contribution> contributionsList) {
         String res = "Вклады :";
         List<Client> allClients = new WorkJSON().readJsonClient();
         List<Bank> allBanks = new WorkJSON().readJsonBank();
