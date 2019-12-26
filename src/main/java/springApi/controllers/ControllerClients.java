@@ -59,5 +59,6 @@ public class ControllerClients {
     @GetMapping("/clients/sort/incorporation/zyx")
     public String getSortClientsFormOfIncorporationZYX() {
         return printClient(sortClients.getSortClientsFormOfIncorporation("zyx"));
+
     }
 }
