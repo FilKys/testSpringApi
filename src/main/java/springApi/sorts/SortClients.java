@@ -1,17 +1,14 @@
 package springApi.sorts;
 
-import springApi.Client;
-import springApi.WorkData;
+import springApi.Entities.Client;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
 public class SortClients {
-    private WorkData workData = new WorkData();
 
-    public List<Client> getSortClients(String type) {
-        List<Client> clientList = workData.getClientList();
+    public List<Client> getSortClients(List<Client> clientList, String type) {
         List<String> sortList1 = new ArrayList<>();
         List<String> sortList2 = new ArrayList<>();
         List<Client> newSortList = new ArrayList<>();
@@ -46,9 +43,9 @@ public class SortClients {
         return newSortList;
     }
 
-    public List<Client> getSortClientsFormOfIncorporation(String type) {
-        List<Client> clientList = workData.getClientList();
-        List<String> incorporationList = workData.getFormOfIncorporation();
+    public List<Client> getSortClientsFormOfIncorporation(List<Client> clientList,
+                                                          List<String> incorporationList,
+                                                          String type) {
         List<String> incorporationSortList1 = new ArrayList<>();
         List<String> incorporationSortList2 = new ArrayList<>();
         List<Client> newSortList = new ArrayList<>();

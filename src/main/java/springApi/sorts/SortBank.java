@@ -1,17 +1,14 @@
 package springApi.sorts;
 
-import springApi.Bank;
-import springApi.WorkData;
+import springApi.Entities.Bank;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
 public class SortBank {
-    private WorkData workData = new WorkData();
 
-    public List<Bank> getSortBankBik(String type) {
-        List<Bank> bankList = workData.getBankList();
+    public List<Bank> getSortBankBik(List<Bank> bankList, String type) {
         List<Integer> bikList1 = new ArrayList<>();
         List<Integer> bikList2 = new ArrayList<>();
         List<Bank> newBankList = new ArrayList<>();
@@ -33,8 +30,7 @@ public class SortBank {
         return newBankList;
     }
 
-    public List<Bank> getSortBankName(String type) {
-        List<Bank> bankList = workData.getBankList();
+    public List<Bank> getSortBankName(List<Bank> bankList, String type) {
         List<String> nameList1 = new ArrayList<>();
         List<String> nameList2 = new ArrayList<>();
         List<Bank> newBankList = new ArrayList<>();

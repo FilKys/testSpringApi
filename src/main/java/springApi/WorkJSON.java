@@ -5,9 +5,11 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 import org.springframework.util.ResourceUtils;
+import springApi.Entities.Bank;
+import springApi.Entities.Client;
+import springApi.Entities.Contribution;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -92,7 +94,9 @@ public class WorkJSON {
                         df.parse(jsonObject.get("openDate").toString()),
                         Float.parseFloat(jsonObject.get("interestRate").toString()),
                         (Long) jsonObject.get("term"));
-                allContributions.add(contribution);
+                if (contribution.getInterestRate() <= 100 &&
+                        contribution.getOpenDate().before(new Date()))
+                    allContributions.add(contribution);
             }
             return allContributions;
         } catch (IOException | ParseException | java.text.ParseException e) {

@@ -1,8 +1,9 @@
 package springApi;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
+import springApi.Entities.Bank;
+import springApi.Entities.Client;
+import springApi.Entities.Contribution;
+
 import java.util.List;
 
 public class WorkData {

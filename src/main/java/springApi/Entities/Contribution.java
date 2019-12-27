@@ -1,4 +1,4 @@
-package springApi;
+package springApi.Entities;
 
 import java.util.Date;
 

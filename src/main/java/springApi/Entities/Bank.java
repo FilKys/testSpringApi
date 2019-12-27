@@ -1,4 +1,4 @@
-package springApi;
+package springApi.Entities;
 
 public class Bank {
     private Long idBank;

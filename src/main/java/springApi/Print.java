@@ -1,5 +1,9 @@
 package springApi;
 
+import springApi.Entities.Bank;
+import springApi.Entities.Client;
+import springApi.Entities.Contribution;
+
 import java.text.SimpleDateFormat;
 import java.util.List;
 import java.util.TimeZone;

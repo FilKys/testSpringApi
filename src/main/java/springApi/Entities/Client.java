@@ -1,4 +1,4 @@
-package springApi;
+package springApi.Entities;
 
 public class Client {
     private Long idClient;
