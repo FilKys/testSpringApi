@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1732102b-c51d-4380-b821-d5ec6121f2d4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/springApi/Entities/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springApi/Entities/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springApi/WorkData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springApi/WorkData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springApi/WorkJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springApi/WorkJSON.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/banks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/banks.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\milli\IdeaProjects\ru.fil.testSpringApi\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1VF0GdvuoOynYjBHH62DCbSGXUt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\milli\IdeaProjects\ru.fil.testSpringApi\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="springApi" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\milli\IdeaProjects\ru.fil.testSpringApi\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="springApi.Application" />
+      <module name="ru.fil.testSpringApi" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1732102b-c51d-4380-b821-d5ec6121f2d4" name="Default Changelist" comment="" />
+      <created>1576833442016</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576833442016</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Создание классов для работы">
+      <created>1576835521295</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576835521295</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Добавление в репозиторий pom.xml">
+      <created>1576835599931</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576835599931</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Добавление в репозиторий pom.xml">
+      <created>1576835943484</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576835943484</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Подготовка ка запуску Api">
+      <created>1576836416304</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576836416304</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Сделан парсер JSON.&#10;Сделан вывод: 1.&#9;Клиенты">
+      <created>1576857734478</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576857734478</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Сделан красивый выод всех сущностей, со всеми данными">
+      <created>1576860578560</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576860578560</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Сделаны сортировки для клинтов и банков по всем параметра.">
+      <created>1577351091393</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1577351091393</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Сделаны сортировки для клинтов и банков по всем параметра.">
+      <created>1577351104682</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1577351104682</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Доделаны все сортировки">
+      <created>1577447468961</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1577447468961</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Доделаны все сортировки">
+      <created>1577447565797</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1577447565797</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Создание классов для работы" />
+    <MESSAGE value="Добавление в репозиторий pom.xml" />
+    <MESSAGE value="Подготовка ка запуску Api" />
+    <MESSAGE value="Сделан парсер JSON.&#10;Сделан вывод: 1.&#9;Клиенты" />
+    <MESSAGE value="Сделан красивый выод всех сущностей, со всеми данными" />
+    <MESSAGE value="Сделаны сортировки для клинтов и банков по всем параметра." />
+    <MESSAGE value="Доделаны все сортировки" />
+    <option name="LAST_COMMIT_MESSAGE" value="Доделаны все сортировки" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="72" y="218" key="#Inspections" timestamp="1576845202112">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="72" y="218" key="#Inspections/0.40.1920.1040@0.40.1920.1040" timestamp="1576845202112" />
+    <state x="1032" y="221" key="#Notifications" timestamp="1576835449604">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="1032" y="221" key="#Notifications/0.40.1920.1040@0.40.1920.1040" timestamp="1576835449604" />
+    <state x="414" y="214" width="1092" height="747" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576835716951">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="414" y="214" width="1092" height="747" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1576835716951" />
+    <state x="765" y="269" key="#com.intellij.ide.util.MemberChooser" timestamp="1576844157575">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="765" y="269" key="#com.intellij.ide.util.MemberChooser/0.40.1920.1040@0.40.1920.1040" timestamp="1576844157575" />
+    <state x="756" y="419" width="408" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1577345772300">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="756" y="419" width="408" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.40.1920.1040@0.40.1920.1040" timestamp="1577345772300" />
+    <state x="714" y="40" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1576858900869">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="714" y="40" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1576858900869" />
+    <state x="1080" y="157" key="CommitChangelistDialog2" timestamp="1577631776415">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="1080" y="157" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1577631776415" />
+    <state x="1220" y="304" key="FileChooserDialogImpl" timestamp="1576835142748">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="1220" y="304" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1576835142748" />
+    <state x="1295" y="456" key="Github.ShareDialog" timestamp="1576835284489">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="1295" y="456" key="Github.ShareDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1576835284489" />
+    <state x="1198" y="268" key="Github.UntrackedFilesDialog" timestamp="1576835290652">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="1198" y="268" key="Github.UntrackedFilesDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1576835290652" />
+    <state width="1877" height="346" key="GridCell.Tab.0.bottom" timestamp="1577447576025">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="346" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1577447576025" />
+    <state width="1877" height="346" key="GridCell.Tab.0.center" timestamp="1577447576025">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="346" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1577447576025" />
+    <state width="1877" height="346" key="GridCell.Tab.0.left" timestamp="1577447576025">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="346" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1577447576025" />
+    <state width="1877" height="346" key="GridCell.Tab.0.right" timestamp="1577447576025">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="346" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1577447576025" />
+    <state width="1877" height="346" key="GridCell.Tab.1.bottom" timestamp="1577447576026">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="346" key="GridCell.Tab.1.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1577447576026" />
+    <state width="1877" height="346" key="GridCell.Tab.1.center" timestamp="1577447576026">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="346" key="GridCell.Tab.1.center/0.40.1920.1040@0.40.1920.1040" timestamp="1577447576026" />
+    <state width="1877" height="346" key="GridCell.Tab.1.left" timestamp="1577447576026">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="346" key="GridCell.Tab.1.left/0.40.1920.1040@0.40.1920.1040" timestamp="1577447576026" />
+    <state width="1877" height="346" key="GridCell.Tab.1.right" timestamp="1577447576026">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="346" key="GridCell.Tab.1.right/0.40.1920.1040@0.40.1920.1040" timestamp="1577447576026" />
+    <state x="922" y="205" key="SettingsEditor" timestamp="1576835134698">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="922" y="205" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1576835134698" />
+    <state x="1032" y="296" key="Vcs.Push.Dialog.v2" timestamp="1577447567238">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="1032" y="296" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1577447567238" />
+    <state x="661" y="383" key="com.intellij.ide.util.TipDialog" timestamp="1576833449894">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="661" y="383" key="com.intellij.ide.util.TipDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1576833449894" />
+    <state x="1249" y="480" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576835622155">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="1249" y="480" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1920.1040@0.40.1920.1040" timestamp="1576835622155" />
+    <state x="685" y="265" key="new project wizard" timestamp="1576835480401">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="685" y="265" key="new project wizard/0.40.1920.1040@0.40.1920.1040" timestamp="1576835480401" />
+    <state x="616" y="260" key="run.anything.popup" timestamp="1577437648859">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="616" y="260" key="run.anything.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1577437648859" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/springApi/WorkJSON.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="contribution.getIdClient()" language="JAVA" />
+        <watch expression="Math.toIntExact(contribution.getIdClient())" language="JAVA" />
+        <watch expression="allClients.get(Math.toIntExact(contribution.getIdClient()))" language="JAVA" />
+        <watch expression="jsonObject.get(&quot;id&quot;)" language="JAVA" />
+        <watch expression="new Date().getCalendarDate().get" language="JAVA" />
+        <watch expression="contribution.getOpenDate().before(new Date())" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

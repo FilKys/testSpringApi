@@ -11,6 +11,7 @@ import springApi.Entities.Contribution;
 
 import java.io.File;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -102,6 +103,18 @@ public class WorkJSON {
         } catch (IOException | ParseException | java.text.ParseException e) {
             e.printStackTrace();
             return null;
+        }
+    }
+
+    public void saveBankToJson(Bank bank) {
+        JSONObject bankObject = new JSONObject();
+        bankObject.put("id", bank.getIdBank());
+        bankObject.put("name", bank.getIdBank());
+        bankObject.put("bik", bank.getIdBank());
+        try (FileWriter file = new FileWriter("classpath:banks.json")) {
+            file.write(bankObject.toJSONString());
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 }

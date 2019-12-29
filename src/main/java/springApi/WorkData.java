@@ -11,9 +11,9 @@ public class WorkData {
     private List<Client> clientList;
     private List<Contribution> contributionList;
     private List<String> formOfIncorporation;
+    WorkJSON workJSON = new WorkJSON();
 
     public WorkData() {
-        WorkJSON workJSON = new WorkJSON();
         bankList = workJSON.readJsonBank();
         clientList = workJSON.readJsonClient();
         contributionList = workJSON.readJsonContributions();
@@ -36,5 +36,47 @@ public class WorkData {
         return formOfIncorporation;
     }
 
+    public void addBank(String name, String bik) {
+        Long maxId = -1L;
+        boolean work = true;
+        for (Bank bank : bankList) {
+            if (bank.getIdBank() < maxId) {
+                maxId = bank.getIdBank();
+            }
+            if (name.equals(bank.getNameBank()) || bik.equals(bank.getBikBank())) {
+                work = false;
+                break;
+            }
+        }
+        if (work) {
+            Bank newBank = new Bank(maxId, name, bik);
+            workJSON.saveBankToJson(newBank);
+            bankList = workJSON.readJsonBank();
+        }
+    }
 
+    public void setBank(Long idBank, String name, String bik) {
+        Bank bank = new Bank(idBank, name, bik);
+        boolean work = true;
+        for (Bank bank1 : bankList) {
+            if (bank1.getIdBank() != idBank && bank1.getNameBank() == name ||
+                    bank1.getIdBank() != idBank && bank1.getBikBank() == bik) {
+                work = false;
+                break;
+            }
+        }
+        if(work) {
+            for (Bank b : bankList) {
+                if (b.getIdBank() == idBank) {
+                    b.setName(name);
+                    b.setBik(bik);
+                    break;
+                }
+            }
+        }
+    }
+
+    public void delBank(Long idBank){
+
+    }
 }

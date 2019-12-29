@@ -22,4 +22,12 @@ public class Bank {
     public String getBikBank(){
         return bik;
     }
+
+    public void setBik(String bik) {
+        this.bik = bik;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
